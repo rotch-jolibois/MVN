@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<VBox alignment="CENTER" prefHeight="521.0" prefWidth="954.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.mvc.controller.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <TextField fx:id="txtfNomedoCarro" promptText="digite o nome do carro" />
+      <TextField fx:id="txtfPlacadoCarro" promptText="digite a placa do carro" />
+      <TextField fx:id="txtfModelodoCarro" promptText="digite o modelo do carro" />
+      <TextField fx:id="txtfMarcadoCarro" promptText="digite a marca do carro" />
+      <Button mnemonicParsing="false" styleClass="FF00FF" text="salvar">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6447368264198303" green="0.05671296268701553" blue="0.05671296268701553" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</VBox>
